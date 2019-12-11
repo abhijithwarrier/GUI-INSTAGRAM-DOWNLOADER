@@ -24,7 +24,6 @@ def CreateWidgets():
     root.previewLabel = Label(root, text="PREVIEW", background = "deepskyblue4")
     root.previewLabel.grid(row=3, column=0, padx=5, pady=5)
 
-
 # Defining i_Downloader() to download the INSTAGRAM POSTS
 def i_Downloader():
     # Storing the path where to download the instagram posts in the download_path variable
